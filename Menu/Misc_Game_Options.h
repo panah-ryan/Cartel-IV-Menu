@@ -1,0 +1,3 @@
+
+void gameOptions();
+void MilitaryMissileOptions();

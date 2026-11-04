@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{99bf53d6-378f-413e-b921-40ff6f9d3da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GTAV">
+      <UniqueIdentifier>{819b25ed-b4b1-4046-927c-dccde87a5d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\RDR">
+      <UniqueIdentifier>{ed7861d1-017e-4050-9c2f-9e77ed20764d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GTAIV">
+      <UniqueIdentifier>{e81238d2-000a-4c81-808c-b2f7939fab42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{053dd82d-826d-458a-997e-921c5a8208b1}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{56e85d47-cf3e-47cd-9b83-952caed44f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{40e788e5-9ec8-4d99-913f-3f3eb11dba9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\MP3">
+      <UniqueIdentifier>{457d39ca-83cd-49f4-96fc-b98e07dea116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\MNCLA">
+      <UniqueIdentifier>{b59a009a-1257-4c9b-9923-bafa6151ce37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{debf3b69-6fa5-4471-acc3-5b5c7bf17363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{cdcc4e3f-bbb0-4051-a279-efdc0352165a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{0884dd4e-87b7-4bda-a22c-cbcfd79f9bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{1ebf872a-9a5f-4d67-908c-f3f7a9c8bac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="documents">
+      <UniqueIdentifier>{0ec19a6c-e139-4e74-902c-cadd57beffbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu\world">
+      <UniqueIdentifier>{26d17150-2640-4a9e-802c-ef32b3eba43d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu\world\object spawner">
+      <UniqueIdentifier>{e83fc46a-ff44-4b41-8783-820cc392b0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu\world\object spawner\object catalog">
+      <UniqueIdentifier>{0d95ce75-f6a5-4179-b899-4394469e2c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\world">
+      <UniqueIdentifier>{23039ead-eed7-4a6e-817e-34fdc4affe0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\world\object spawner">
+      <UniqueIdentifier>{44a6c312-2a42-44d1-b513-b6211fe5123a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu\world\object spawner\object catalog">
+      <UniqueIdentifier>{bbd28114-ced4-4105-96c8-e2611c7f7a04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\GTAV\natives64.h">
+      <Filter>include\GTAV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GTAV\natives32.h">
+      <Filter>include\GTAV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GTAV\constsShared.h">
+      <Filter>include\GTAV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GTAV\consts64.h">
+      <Filter>include\GTAV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GTAV\consts32.h">
+      <Filter>include\GTAV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\natives.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\intrinsics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RDR\natives32.h">
+      <Filter>include\RDR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\RDR\consts32.h">
+      <Filter>include\RDR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GTAIV\natives32Old.h">
+      <Filter>include\GTAIV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\varargs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MNCLA\natives32.h">
+      <Filter>include\MNCLA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MP3\natives32.h">
+      <Filter>include\MP3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MNCLA\consts32.h">
+      <Filter>include\MNCLA</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUiHandling.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuExecutionHandling.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemExecution.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Network_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="World_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Teleport_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Ped_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="threading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Security.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectVehicles_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Script_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\MP3\consts32.h">
+      <Filter>include\MP3</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc_Game_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Network_Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu_Options.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Maintenance_Loops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerCamera.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerConstants.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerCore.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerFunctions.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerMenu.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerUI.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectCatalog\ObjectSpawnerAlphabetList.h">
+      <Filter>Header Files\menu\world\object spawner\object catalog</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectCatalog\ObjectSpawnerCategories.h">
+      <Filter>Header Files\menu\world\object spawner\object catalog</Filter>
+    </ClInclude>
+    <ClInclude Include="maths.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerRepository.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerTypes.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerGlobals.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectSpawnerMenuActions.h">
+      <Filter>Header Files\menu\world\object spawner</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectCatalog\CartelSelections.h">
+      <Filter>Header Files\menu\world\object spawner\object catalog</Filter>
+    </ClInclude>
+    <ClInclude Include="World\ObjectSpawner\ObjectCatalog\GameCategories.h">
+      <Filter>Header Files\menu\world\object spawner\object catalog</Filter>
+    </ClInclude>
+    <ClInclude Include="MilitaryMissiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\GTAIV\consts32.h">
+      <Filter>include\GTAIV</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\common.c">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMaps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuUiHandling.c">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuExecutionHandling.c">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemExecution.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Network_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="World_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleport_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Ped_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="threading.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Security.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectVehicles_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Script_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc_Game_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Network_Functions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu_Options.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Maintenance_Loops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectSpawnerCamera.c">
+      <Filter>Source Files\menu\world\object spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectSpawnerCore.c">
+      <Filter>Source Files\menu\world\object spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectSpawnerFunctions.c">
+      <Filter>Source Files\menu\world\object spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectSpawnerUI.c">
+      <Filter>Source Files\menu\world\object spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectCatalog\ObjectSpawnerAlphabetList.c">
+      <Filter>Source Files\menu\world\object spawner\object catalog</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectCatalog\ObjectSpawnerCategories.c">
+      <Filter>Source Files\menu\world\object spawner\object catalog</Filter>
+    </ClCompile>
+    <ClCompile Include="maths.c">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectSpawnerRepository.c">
+      <Filter>Source Files\menu\world\object spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectSpawnerGlobals.c">
+      <Filter>Source Files\menu\world\object spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectSpawnerMenuActions.c">
+      <Filter>Source Files\menu\world\object spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectCatalog\CartelSelections.c">
+      <Filter>Source Files\menu\world\object spawner\object catalog</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectCatalog\GameCategories.c">
+      <Filter>Source Files\menu\world\object spawner\object catalog</Filter>
+    </ClCompile>
+    <ClCompile Include="World\ObjectSpawner\ObjectSpawnerMenu.c">
+      <Filter>Source Files\menu\world\object spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="MilitaryMissiles.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\RequestsForRyan.txt">
+      <Filter>documents</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Cartel.c">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
